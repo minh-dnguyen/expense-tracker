@@ -1,0 +1,28 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A simple but powerful command-line interface (CLI) to manage your personal finances. This tool allows you to easily add, view, delete, and get a summary of your expenses right from your terminal.",
+  "main": "index.js",
+  "bin": {
+    "expense-tracker": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minh-dnguyen/expense-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minh-dnguyen/expense-tracker/issues"
+  },
+  "homepage": "https://github.com/minh-dnguyen/expense-tracker#readme",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "cli-table3": "^0.6.5",
+    "yargs": "^18.0.0"
+  }
+}
